@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!--A website about the protector of Gotham City, the Batman-->
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+	  <link rel="stylesheet" type="text/css" href="style.css"> 
+      <title>Batman</title>
+	  <script src="javascript.js"></script>
+   </head>
+
+   <body onload="forAnd()">
+		<div>
+		<header>
+      <h1><p><img src="images\batman4.png" alt="Bat symbol" width="450" height="150"></p></h1>
+	    </header>
+		</div>
+	  
+	  <div>
+	  <nav>
+ 	   <a href="home.html">Home</a> |
+ 	   <a href="technology.html">Technology</a> |
+  	   <a href="accomplices.html">Accomplices</a> |
+	   <a href="products.html">Store</a> |
+	   <a href="about.html">About</a> |
+	   <a href="testMyFunctions.html">Test Functions</a>
+	  </nav> 
+	  </div>
+		
+		<main>
+			
+			 <p>Subscribe to our newsletter!</p>
+		 </div>
+		 
+		 <div>
+      <form method = "post" action = "http://www.deitel.com">
+         <input type = "hidden" name = "recipient"
+            value = "deitel@deitel.com">
+         <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+
+         <p><label><em>Name</em>:
+               <input name = "name" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+			
+			<p><label><em>Email</em>:
+               <input name = "email" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+			
+		 
+		 <p><Label>Who is the greatest superhero?<br>
+		 <input type="checkbox" name="food" value="Cereal"> Batman<br>
+		 <input type="checkbox" name="food" value="Beans" checked> Bruce Wayne
+		 </label></p>
+		 
+		 <p><label>Did you learn something about Batman today?
+		 <select>
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		 </select>
+		 
+		 </label></p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+	  </div>
+			
+	  </main>
+	  
+	  <hr>
+	  
+	  <div>
+	  <footer>COM-340&#169;</footer>
+	  </div>
+   </body>
+</html>

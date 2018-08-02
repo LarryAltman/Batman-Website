@@ -1,0 +1,45 @@
+nav		
+{
+			font-family: Calibri, Verdana;
+}
+
+body	
+{
+			background: linear-gradient(#f2f2f2, #999999);
+			margin: 50px;
+			background-color: #f2f2f2;
+}
+
+p	
+{	
+		font-family: Calibri, Verdana;
+}
+
+h1, h2, h3		
+{
+			font-family: Calibri, Verdana;
+}
+
+th		
+{	
+			font-size: 110%;
+			font-family: Calibri, Verdana;
+}
+
+tr, th, td 
+{
+			font-family: Calibri, Verdana;
+			padding: 5px;
+			border: 1px solid black;
+}
+
+tr:nth-child(odd)	
+{
+			background-color: #d9d9d9;
+}
+
+footer	
+{
+			font-family: Calibri, Verdana;
+			font-style: italic;
+}
